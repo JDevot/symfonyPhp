@@ -1,13 +1,13 @@
 # symfonyPhp
 
-#Installation
+# Installation
     Executer les commandes suivantes :
 
     composer install    
     php bin/console doctrine:database:create
     php bin/console doctrine:schema:update -f
-#Usage
-#Routes
+# Usage
+# Routes
 Liste des articles :
 Route: /api/articles/liste
 
