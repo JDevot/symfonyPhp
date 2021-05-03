@@ -29,7 +29,9 @@ Résultat :
         "description": "Lorem Ipsum"
     }
 ]
+
 Article :
+
 Route: /api/article/{id}
 
 Méthodes: GET
