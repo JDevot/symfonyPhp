@@ -1,15 +1,15 @@
 # symfonyPhp
 
-Installation
-Executer les commandes suivantes :
+#Installation
+    Executer les commandes suivantes :
 
-composer install
-php bin/console doctrine:database:create
-php bin/console doctrine:schema:update -f
-Usage
-Routes
+    composer install    
+    php bin/console doctrine:database:create
+    php bin/console doctrine:schema:update -f
+#Usage
+#Routes
 Liste des articles :
-Route: /api/posts
+Route: /api/articles/liste
 
 Méthodes: GET
 
@@ -21,16 +21,16 @@ Résultat :
     {
         "id": 1,
         "title": "Article 1",
-        "content": "Lorem Ipsum"
+        "description": "Lorem Ipsum"
     },
     {
         "id": 2,
         "title": "Article 2",
-        "content": "Lorem Ipsum"
+        "description": "Lorem Ipsum"
     }
 ]
 Article :
-Route: /api/post/{id}
+Route: /api/article/{id}
 
 Méthodes: GET
 
@@ -40,7 +40,7 @@ id : int
 Résultat:
 
 {
-    "id": 1,
-    "title": "Article 1",
-    "content": "Lorem Ipsum"
+  "id": 1,
+  "title": "test",
+  "description": "test"
 }
