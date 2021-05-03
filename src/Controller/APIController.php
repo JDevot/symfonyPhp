@@ -20,7 +20,7 @@ class APIController extends AbstractController
         return $this->json($articlesRepo->findall(),200,[], ['groups'=>'article:read']);
     }
     /**
-     * @Route("/article/liste/{id}", name="article", methods={"GET"})
+     * @Route("/article/{id}", name="article", methods={"GET"})
      */
     public function getArticle(int $id,ArticlesRepository $articleRepo,SerializerInterface $serializer)
     {
