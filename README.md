@@ -16,7 +16,7 @@ Méthodes: GET
 Paramètres: aucun
 
 Résultat :
-
+```json
 [
     {
         "id": 1,
@@ -29,7 +29,7 @@ Résultat :
         "description": "Lorem Ipsum"
     }
 ]
-
+```
 Article :
 
 Route: /api/article/{id}
@@ -40,9 +40,10 @@ Paramètres:
 
 id : int
 Résultat:
-
+```json
 {
   "id": 1,
   "title": "test",
   "description": "test"
 }
+```
